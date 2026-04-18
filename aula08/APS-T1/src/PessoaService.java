@@ -1,9 +1,9 @@
 public interface PessoaService {
-    void salva(Pessoa p) throws Exception;
+    public void salvar(Pessoa p) throws Exception;
 
-    void remover(Integer id) throws Exception;
+    public void remover(Integer id) throws Exception;
 
-    Pessoa busca(Integer id);
+    public Pessoa buscar(Integer id);
 
-    String calculaSalario();
+    public String calcularSalario();
 }

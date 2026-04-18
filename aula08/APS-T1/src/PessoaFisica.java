@@ -2,6 +2,11 @@ public class PessoaFisica extends Pessoa {
     private String cpf;
     private Float salario;
 
+    @Override
+    public Float getValorParaRelatorio() {
+        return this.salario;
+    }
+
     public String getCpf() {
         return cpf;
     }
